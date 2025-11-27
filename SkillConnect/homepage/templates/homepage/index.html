@@ -1,0 +1,36 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillConnect</title>
+    <link rel="stylesheet" href="{% static 'homepage/style.css' %}">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">SkillConnect</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a class="btn" href="#">Login / Signup</a></li>
+        </ul>
+    </nav>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Connect with Freelancers & Skills Worldwide</h1>
+            <p>Discover, hire, and grow your business with top professionals.</p>
+            <a href="#" class="cta-btn">Get Started</a>
+        </div>
+        <div class="hero-image">
+            <img src="{% static 'homepage/images/hero.png' %}" alt="Hero Image">
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 SkillConnect. All rights reserved.</p>
+    </footer>
+    <script src="{% static 'homepage/script.js' %}"></script>
+</body>
+</html>
